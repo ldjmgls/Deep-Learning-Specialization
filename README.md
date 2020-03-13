@@ -6,7 +6,7 @@ Obtain preliminary knowledge concerning deep learning throughout this specializa
 This repo contains all my work for this series of courses on Coursera. Unless specified, all the code base, Python import files, and images are provided by the courses.
 
 
-## Courses
+## Courses (continually being updated)
    * Neural Networks and Deep Learning  
       * What I've learned:  
       
