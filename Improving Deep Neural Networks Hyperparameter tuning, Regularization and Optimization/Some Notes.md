@@ -47,3 +47,27 @@
 ## Normalization
 
 ## Initialization
+
+Training the neural network requires specifying an initial value of the weights. A well chosen initialization method will help learning.
+
+A well chosen initialization can:
+
+:heavy_check_mark: **Speed up the convergence of gradient descent**
+
+:heavy_check_mark: **Increase the odds of gradient descent converging to a lower training (and generalization) error**
+
+* `W(Weights)` and `b(bias)`- *parameters*
+
+* Initilization Methods:
+
+  * *He* initialization:
+
+    `W` = multiplying `np.random.randn(..., ...)` by `sqrt(2./layers_dims[l-1])`
+
+> **Something to remember:**
+- Different initializations lead to different results
+- ***Random*** initialization is used to break symmetry and make sure different hidden units can learn different things
+- Don't intialize weights to values that are too large
+- ***He*** initialization works well for networks with ReLU activations.
+
+## Optimization
