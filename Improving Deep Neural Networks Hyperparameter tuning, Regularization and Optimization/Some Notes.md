@@ -64,10 +64,10 @@ A well chosen initialization can:
 
     `W` = multiplying `np.random.randn(..., ...)` by `sqrt(2./layers_dims[l-1])`
 
-> **Something to remember:**
-- Different initializations lead to different results
-- ***Random*** initialization is used to break symmetry and make sure different hidden units can learn different things
-- Don't intialize weights to values that are too large
-- ***He*** initialization works well for networks with ReLU activations.
+    > ***Something to remember:***
+    >- Different initializations lead to different results
+    >- ***Random*** initialization is used to break symmetry and make sure different hidden units can learn different things
+    >- Don't intialize weights to values that are too large
+    >- ***He*** initialization works well for networks with ReLU activations.
 
 ## Optimization
