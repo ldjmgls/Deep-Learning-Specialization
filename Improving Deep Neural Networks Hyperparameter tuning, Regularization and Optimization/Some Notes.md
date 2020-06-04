@@ -62,7 +62,7 @@ A well chosen initialization can:
 
   * *He* initialization:
 
-    `W` = multiplying `np.random.randn(..., ...)` by `sqrt(2./layers_dims[l-1])`
+    `W` = multiplying `np.random.randn(layer_dims[l], layer_dims[l-1])` by `sqrt(2./layers_dims[l-1])`
 
     > ***Something to remember:***
     >- Different initializations lead to different results
