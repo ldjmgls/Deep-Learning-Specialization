@@ -71,3 +71,62 @@ A well chosen initialization can:
     >- ***He*** initialization works well for networks with ReLU activations.
 
 ## Optimization
+* Preface
+
+  * Basic: **Gradient Descent**
+
+    :heavy_check_mark: update the parameters
+
+    :heavy_check_mark: minimize the cost
+
+  * **Advanced optimization methods**
+
+    :heavy_check_mark: speed up learning
+
+    :heavy_check_mark: better final value for the cost function.
+
+  Having a good optimization algorithm can be the difference between waiting days vs. just a few hours to get a good result.
+
+* Optimization Methods
+
+  1. * (Batch) Gradient descent
+
+      Take gradient steps with respect to **all (m) examples** on each step
+
+    * Stochastic Gradient Descent
+
+      **1 training example** for one update step
+
+  2. Mini-Batch Gradient Descent
+
+    * Intermediate number of examples for each step. Powers of two are often chosen to be the mini-batch size, e.g., **16, 32, 64, 128**.
+
+    * Coding Steps
+
+      1) Shuffle
+
+      2) Partition
+
+  3. Momentum
+
+    * Momentum takes into account the **past gradients** to smooth out the update. We will store the **direction** of the previous gradients in the variable `v`.
+
+    * `beta` - hyperparameter
+
+    * Formula:
+
+  4. Adam
+
+    * Combines ideas from RMSProp and Momentum.
+
+    * `beta1`, `beta2`, `t` - hyperparameters
+
+    * Formula:
+
+* Summary
+
+  * Mini-batch Gradient Descent
+
+  * Mini-batch Gradient Descent with Momentum
+
+  * Mini-batch Adam
