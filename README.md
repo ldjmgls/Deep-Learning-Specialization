@@ -25,4 +25,4 @@ This repo contains all my work for this series of courses on Coursera. Unless sp
 ## References
 
 -------------------------------------------------------------------------------
-***LabelImg*** for labeling data!
+***LabelImg App*** for labeling data!
